@@ -8,10 +8,14 @@ import os
 app = Flask(__name__)
 app.secret_key = 'your_secret_key_here_change_it'
 
+<<<<<<< HEAD
 # OMDb API Configuration (You already have this!)
 # OMDB_API_KEY = '41e6a6fc'  # Your existing API key
 OMDB_API_KEY = '6c549c0a'  # Your existing API key
 # OMDB_API_KEY = 'e94ca55c'  # Your existing API key prafulla api key
+=======
+OMDB_API_KEY = 'YOUR_API_KEY' 
+>>>>>>> 021b649211fb06e546ce11fb7428333a615e8d90
 OMDB_BASE_URL = 'http://www.omdbapi.com/'
 
 # Load datasets

@@ -64,13 +64,19 @@ My current `dataset.csv` should have these columns:
 
 ### Recommended Datasets to Add
 
-**1. Bollywood Movies Dataset:**
+**1. Hollywood Movies Dataset:**
+- **Source**: [Kaggle - Hollywood Movies](https://www.kaggle.com/datasets)
+- **Search for**: "Hollywood movies dataset" or "Hollywood movies dataset 5000"
+- **Required columns**: title, genre, overview, vote_average, vote_count
+- **Save as**: `dataset.csv`
+
+**2. Bollywood Movies Dataset:**
 - **Source**: [Kaggle - Bollywood Movies](https://www.kaggle.com/datasets)
 - **Search for**: "Bollywood movies dataset" or "Indian movies dataset"
 - **Required columns**: title, genre, overview, vote_average, vote_count
 - **Save as**: `bollywood.csv`
 
-**2. Web Series Dataset:**
+**3. Web Series Dataset:**
 - **Source**: [Kaggle - TV Shows/Netflix Dataset](https://www.kaggle.com/datasets)
 - **Search for**: "TV series dataset" or "Netflix shows dataset"
 - **Popular options**:
