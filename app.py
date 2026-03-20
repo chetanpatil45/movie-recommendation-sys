@@ -10,23 +10,23 @@ app.secret_key = 'your_secret_key_here_change_it'
 
 # OMDb API Configuration (You already have this!)
 # OMDB_API_KEY = '41e6a6fc'  # Your existing API key
-OMDB_API_KEY = '90998eb3'  # Your existing API key
+OMDB_API_KEY = '6c549c0a'  # Your existing API key
 # OMDB_API_KEY = 'e94ca55c'  # Your existing API key prafulla api key
 OMDB_BASE_URL = 'http://www.omdbapi.com/'
 
 # Load datasets
 def load_datasets():
-    hollywood_df = pd.read_csv('dataset.csv')
+    hollywood_df = pd.read_csv('movie-recommendation-sys//dataset.csv')
     
     # For now, using hollywood dataset as template
     # You'll replace these with actual Bollywood and Web Series datasets
     try:
-        bollywood_df = pd.read_csv('bollywood.csv')
+        bollywood_df = pd.read_csv('movie-recommendation-sys//bollywood.csv')
     except FileNotFoundError:
         bollywood_df = pd.DataFrame()
     
     try:
-        webseries_df = pd.read_csv('webseries.csv')
+        webseries_df = pd.read_csv('movie-recommendation-sys//webseries.csv')
     except FileNotFoundError:
         webseries_df = pd.DataFrame()
     
