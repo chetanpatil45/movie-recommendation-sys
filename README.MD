@@ -84,7 +84,7 @@ My current `dataset.csv` should have these columns:
   - TV Shows Dataset from TMDB
 - **Save as**: `webseries.csv`
 
-**Alternative**: Use TMDB API to fetch data programmatically
+**Alternative**: Use OMDB API to fetch data programmatically
 
 ## 🔧 Installation & Setup
 
@@ -104,7 +104,7 @@ pip install -r requirements.txt
 
 ### 3. Get TMDB API Key
 
-1. Go to [OMDB Website](https://www.themoviedb.org/)
+1. Go to [OMDB Website](https://www.omdbapi.com)
 2. Create a free account
 3. Go to Settings → API
 4. Request an API key (free for non-commercial use)
