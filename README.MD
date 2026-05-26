@@ -18,7 +18,7 @@ A comprehensive Flask-based movie recommendation system with content-based filte
 - Flask (Python Web Framework)
 - Pandas (Data Processing)
 - Scikit-learn (TF-IDF Vectorizer, Cosine Similarity)
-- TMDB API (Movie Data)
+- OMDB API (Movie Data)
 
 **Frontend:**
 - HTML5, CSS3, JavaScript
@@ -104,7 +104,7 @@ pip install -r requirements.txt
 
 ### 3. Get TMDB API Key
 
-1. Go to [TMDB Website](https://www.themoviedb.org/)
+1. Go to [OMDB Website](https://www.themoviedb.org/)
 2. Create a free account
 3. Go to Settings → API
 4. Request an API key (free for non-commercial use)
