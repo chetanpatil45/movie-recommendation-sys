@@ -9,7 +9,7 @@ A comprehensive Flask-based movie recommendation system with content-based filte
 - **Personalized Recommendations**: AI-powered content-based recommendations
 - **Detailed Movie Information**: Cast, director, ratings, trailers, and IMDB links
 - **User Session**: Personalized greeting with username
-- **TMDB Integration**: Rich movie data with posters and additional details
+- **OMDB Integration**: Rich movie data with posters and additional details
 - **Responsive Design**: Modern, mobile-friendly interface
 
 ## 🚀 Tech Stack
@@ -81,7 +81,7 @@ My current `dataset.csv` should have these columns:
 - **Search for**: "TV series dataset" or "Netflix shows dataset"
 - **Popular options**:
   - Netflix Movies and TV Shows
-  - TV Shows Dataset from TMDB
+  - TV Shows Dataset from OMDB
 - **Save as**: `webseries.csv`
 
 **Alternative**: Use OMDB API to fetch data programmatically
@@ -102,7 +102,7 @@ cd movie-recommender
 pip install -r requirements.txt
 ```
 
-### 3. Get TMDB API Key
+### 3. Get OMDB API Key
 
 1. Go to [OMDB Website](https://www.omdbapi.com)
 2. Create a free account
